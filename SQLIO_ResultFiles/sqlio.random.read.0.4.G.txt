@@ -1,0 +1,23 @@
+sqlio v1.5.SG
+using system counter for latency timings, 2539060 counts per second
+parameter file used: G:\param.txt
+	file G:\testfile.dat with 64 threads (0-63) using mask 0x0 (0)
+64 threads reading for 15 secs from file G:\testfile.dat
+	using 4KB random IOs
+size of file G:\testfile.dat needs to be: 52428800000 bytes
+current file size:	0 bytes
+need to expand by:	52428800000 bytes
+expanding G:\testfile.dat ... done.
+using specified size: 50000 MB for file: G:\testfile.dat
+initialization done
+CUMULATIVE DATA:
+throughput metrics:
+IOs/sec: 26263.98
+MBs/sec:   102.59
+latency metrics:
+Min_Latency(ms): 0
+Avg_Latency(ms): 1
+Max_Latency(ms): 138
+histogram:
+ms: 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24+
+%: 22 43 22  6  2  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1
